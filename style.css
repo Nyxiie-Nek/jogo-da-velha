@@ -53,3 +53,26 @@ h1 {
     font-weight: bold;
     color: #34495e;
 }
+
+#restart-btn {
+    padding: 12px 25px;
+    font-size:16px;
+    cursor: pointer;
+    border: none;
+    background-color: #2ecc71;
+    color: #ffffff;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow:0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#restart-btn:hover {
+    background-color: #27ae60;
+    transform: translateY(-2px)
+}
+
+.winner {
+    background-color: #f1c40f !important;
+    color: #ffffff !important;
+}
+
