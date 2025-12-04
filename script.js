@@ -16,3 +16,19 @@ const winConditions = [
 const statusElement = document.querySelector('.status-display');
 const cellElements = document.querySelector('.cell');
 const restart = document.querySelector('#restart-btn');
+
+function updateStatusMessage() {
+    statusElement.innerHTML = ```Vez do jogador **${activePlayer}**```;
+}
+
+function onCellClick(clickedCellEvent) {
+    const clickedCellEvent.target;
+    const clickedCellIndex = parseInt(clickedCell.GetAttribute('data-index'));
+
+    if (gameState[clickedCellIndex] !== ''|| !isGameRunning) {
+        return;
+    }
+
+    processMove(clickedCell, clickedCellIndex);
+    validResult();
+}
