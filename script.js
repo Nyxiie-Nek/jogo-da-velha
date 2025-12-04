@@ -22,7 +22,7 @@ function updateStatusMessage() {
 }
 
 function onCellClick(clickedCellEvent) {
-    const clickedCellEvent.target; 
+    const clickedCellEvent = e.target; 
     const clickedCellIndex = parseInt(clickedCell.GetAttribute('data-index'));
 
     if (gameState[clickedCellIndex] !== ''|| !isGameRunning) {
